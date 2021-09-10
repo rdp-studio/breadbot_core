@@ -5,6 +5,7 @@ from . import idea
 from . import stardict
 from . import teach
 from . import web
+from . import impdata
 
 def response(user, qus):
     ans = ''

@@ -3,6 +3,7 @@ import os
 import re
 import sys
 
+import breadbot
 from breadbot import core
 from breadbot import func
 from breadbot import serv
@@ -30,7 +31,7 @@ def show_help():
 
 
 def import_data():
-    func.import_data.impdata(db)
+    breadbot.func.impdata.impdata(db)
 
 
 def count_data():

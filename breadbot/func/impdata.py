@@ -123,4 +123,4 @@ def impdata(db):
 if __name__ == '__main__':
     user = 'localuser'
     db = common.get_db()
-    import_data(db)
+    impdata(db)
