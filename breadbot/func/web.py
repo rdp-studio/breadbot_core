@@ -18,16 +18,16 @@ def search_corpus(keyword):
     if not keyword:
         return
     keyword = keyword.replace(' ', '+')
-    url = 'https://github.com/ideamark/ideamark.github.io/search?q=' + keyword
+    url = 'https://github.com/rdp-studio/breadbot/search?q=' + keyword
     return common.url_to_html(url)
 
 
 def show_homepage():
-    url = 'http://breadbot.fun'
-    name = 'Breadbot.Fun'
+    url = 'https://ai.rdpstudio.top/#!index.md'
+    name = 'AI.RDPStudio.top'
     return common.url_to_html(url, name)
 
 def show_wiki():
-    url = 'http://cloud.breadbot.fun:8080/#!wiki/index.md'
+    url = 'https://ai.rdpstudio.top/#!index.md'
     name = 'Wiki'
     return common.url_to_html(url, name)
