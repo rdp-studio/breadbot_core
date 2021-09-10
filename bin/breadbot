@@ -30,7 +30,7 @@ def show_help():
 
 
 def import_data():
-    func.import_data.import_data(db)
+    func.import_data.impdata(db)
 
 
 def count_data():

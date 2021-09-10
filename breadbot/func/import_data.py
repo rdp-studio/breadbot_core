@@ -102,7 +102,7 @@ def parser(db, lines):
             content.append(line)
 
 
-def import_data(db):
+def impdata(db):
     try:
         empty_db(db)
         path_list = get_path_list()
